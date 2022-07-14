@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Loja 1.0</title>
+</head>
+<body>
+    <header>
+        <h1>Minha Loja 1.0</h1>
+    </header>
+    <main>
+        <div class="tittle">
+            <h2>Produtos</h2>
+        </div>
+
+        <div class="acard">
+            <div class="card">
+                <div class="textfield">
+                    <label>Produto</label>
+                    <input type="text" id="produto" placeholder="Digite o produto">
+                </div>
+                <div class="textfield">
+                    <label>Valor</label>
+                    <input type="number" id="valor" placeholder="Digite o valor">
+                </div>
+                <button onclick="produto.salvar()">Salvar</button>
+                <button onclick="produto.cancelar()">Cancelar</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <table border="1">
+                <thead>
+                    <th>ID</th>
+                    <th>Produto</th>
+                    <th>Valor</th>
+                    <th>Acoes</th>
+                </thead>
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

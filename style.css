@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: blueviolet;
+    color: #fff;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tittle{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.acard{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 20%;
+    padding: 15px 25px;
+    background: #fff;
+    border: 1px solid rgb(201, 197, 197);
+    border-radius: 12px;
+    box-shadow: 0px 3px 10px #00000056;
+}
+
+.textfield{
+    display: grid;
+    padding: 5px;
+}
+
+.textfield input{
+    padding: 5px;
+    border: 1px solid rgb(201, 197, 197);
+    outline: none;
+}
+
+button{
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px 8px;
+    background-color: blueviolet;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 4px;
+    outline: none;
+    transition: all ease 0.8s;
+}
+
+button:hover{
+    background-color: #fff;
+    color: blueviolet;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+table{
+   border-collapse: collapse;
+   border: 1px solid #ccc;
+   width: 23%;
+   text-align: center;
+}
+
+#tbody img{
+    width: 22px;
+    height: 22px;
+    padding-top: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#tbody img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    width: 18px;
+    height: 18px;
+}
